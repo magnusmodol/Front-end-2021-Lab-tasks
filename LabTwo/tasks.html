@@ -2,33 +2,102 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Tasks</title>
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Lab 2 - Front End</title>
+		<style>
+			nav ul {
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+			}
+
+			nav ul > li {
+				display: inline-block;
+				width: 5em;
+				padding: 0 3px;
+				margin: 0 8px;
+			}
+
+			nav ul > li a {
+				display: inline-block;
+				width: 100%;
+				background: #ddd;
+				padding: 3px 8px;
+			}
+		</style>
 	</head>
 	<body>
-		<script>
-			// TASK 2
-			const string2 = "make me uppercase"; // uppercase the whole sentence
-			const string3 = "MAKE ME LOWERCASE"; // lowercase the whole sentence
-			const int1 = 27.6; // use Math. operation to get the output 30
-			const int2 = 27.6; // use Math. operation to get the output 27
+		<nav>
+			<ul id="nav">
+				<li><a href="#Page1">Page 1</a></li>
+				<li><a href="#Page2">Page 2</a></li>
+				<li><a href="#Page3">Page 3</a></li>
+				<li><a href="#Page4">Page 4</a></li>
+				<li><a href="#Page5">Page 5</a></li>
+			</ul>
+		</nav>
+		<header>
+			<h1>IIKG1002/IDG1011 Front-end web development</h1>
+		</header>
+		<section>
+			<p>Open this HTML file in your editor. You should do the tasks inside the script element in this HTML file.</p>
+		</section>
+		<footer></footer>
 
-			// TASK 3
+		<script>
+			//TASK1
+			//---------- Your code below ----------
+			let list = document.getElementById("nav");
+			let li = document.createElement("li");
+			let a = document.createElement("a");
+			a.innerHTML = "Page 6";
+			a.setAttribute("href", "test");
+			li.appendChild(a);
+			list.appendChild(li);
+
+			//TASK2
+			//All answers should be printed out in the console.
+			const string1 = "make me uppercase"; // uppercase the whole sentence
+			const string2 = "MAKE ME LOWERCASE"; // lowercase the whole sentence
+
+			const int1 = 27.6; // use Math. operation to get the output 28
+			const int2 = 27.6; // use Math. operation to get the output 27
+			//---------- Your code below ----------
+
+
+			//TASK3
+			//Increment and decrement the numbers and print it out in the console.
 			let increment = 10;
 			let decrement = 5;
+			//---------- Your code below ----------
 
-			// TASK 4
 
-			// TASK 5
+			//TASK4
+			//---------- Your code below ----------
 
-			// TASK 6
 
-			// TASK 7
+			//TASK5
+			//---------- Your code below ----------		
 
-			// TASK 8
 
-			// TASK 9
+			//TASK6
+			//---------- Your code below ----------
+
+
+			//TASK7
+			//---------- Your code below ----------
+
+
+			//TASK8
+			//---------- Your code below ----------
+
+
+			//TASK9
+			//---------- Your code below ----------
+
+
+
 		</script>
 	</body>
 </html>
