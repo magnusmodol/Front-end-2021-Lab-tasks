@@ -1,9 +1,4 @@
-Clarifications:
-
-Append = appendChild
-Return = value after the code is runned ?
-
-Task 1: DOM recap
+Task 1: DOM recap - Work in provided dom.html file.
 
 create a variable called list and assign the list with id nav to it
 using createElement create the element LI,
@@ -25,25 +20,27 @@ example: document.querySelector("#id element child selector a").click()
 EXTRA: Still unsure about this?
 use the last weeks lab and add different elements to this page, create your own list, create a h1, create a p tag
 
+******************************** TASK 2 - 9 ********************************
+DO THIS IS PROVIDED tasks.html
+
 Task 2:
 
 Strings:
 
-const string1 = "hello world" //uppercase h
 const string2 = "make me uppercase" // uppercase the whole sentence
 const string3 = "MAKE ME LOWERCASE" // lowercase the whole sentence
 
 const int1 = 27.6 // use Math. operation to get the output 30
 const int2 = 27.6 // use Math. operation to get the output 27
 
-Task 4:
+Task 3:
 increment by 1
 let increment = 10;
 
 decrement by 1
 let decrement = 5;
 
-Task 3:
+Task 4:
 
 Create a variable called name using let, assign a name to the variable and console log the output
 
