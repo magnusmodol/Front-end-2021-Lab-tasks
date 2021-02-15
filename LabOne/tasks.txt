@@ -1,0 +1,67 @@
+Task 1:
+
+Use the id "first" and return the element
+- use the id "first" to return the innerHTML of the element
+- change the innerHTML of the element to a string of your choice
+  - example: "The innerHTML of the element with id first is now changed"
+
+- Style the element with id first
+  - change the fontsize to 2em.
+  - change the background color of the element to blue
+  - change the color of the text to white
+  - align the text to center
+
+- assign the element with id first to the variable named first
+ - change the innerHTML
+ - change the styling
+
+Task 2:
+
+- Use the class list and assign it to a variable named list
+- return the first element inside the list
+- return the last element inside the list
+- return the 3rd element inside the list
+
+- assign the 3rd element inside the list to a variable named "elementThree"
+- create a new element "LI" with the name "newElement"
+- change the innerHTML of the element named newElement to "This element will be inserted into the DOM"
+- use insert before to add the element between element 2 and element 3
+
+
+- play around
+ - Create a new "LI" element
+ - change the innerHTML to a text of your Choice
+ - place the element inside the list (try to insert it in another place)
+  - try to insert it another place
+  - try to insert it as the last element of the list
+  - try to insert it as the first element inside the list
+
+Task 3:
+- select the input field inside the form
+- replace the value inside the input field
+
+Task 4:
+- Inside the form, select the input with type option using the id optionsList
+- select the first option, what do you think will be returned?
+- change the innerHTML of the first option
+- try to add a new option
+
+Task 5 -  Test yourself (refresh the page)
+- Add the following elements to the page
+  - div tag
+    - optional: add a id with the name "div" or a name of your choice
+  - inside the div add a h2 element
+    - change the innerHTML of the h2
+  - inside the div add a p tag after h2
+    - change the inner inside the p tag to "this is a p tag"
+  - inside the div add a unordered list
+    - add atleast 3 list elements
+    - change the innerHTML of the list items to a string of your choice
+    - insert one element in the middle of the list.
+  - style the list as you like
+
+
+Task 6:
+- go to VG.no
+- select different tags, change the innerHTMl and try to style
+- (it's worth to assign the queries to a variable for easy access)

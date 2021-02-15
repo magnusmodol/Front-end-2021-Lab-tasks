@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Tasks</title>
+	</head>
+	<body>
+		<script>
+			const string2 = "make me uppercase"; // uppercase the whole sentence
+			const string3 = "MAKE ME LOWERCASE"; // lowercase the whole sentence
+
+			const int1 = 27.6; // use Math. operation to get the output 28
+			const int2 = 27.6; // use Math. operation to get the output 27
+
+			console.log(string2.toUpperCase());
+			console.log(string3.toLowerCase());
+			console.log(Math.ceil(int1));
+			console.log(Math.floor(int1));
+
+			let increment = 10;
+			increment = increment + 1;
+			//increment++;
+			console.log(increment);
+
+			let decrement = 5;
+			decrement = decrement - 1;
+			//decrement--;
+			console.log(decrement);
+
+			let name = "Cornelius";
+			let country = "Norway";
+			console.log("Hi! my name is " + name + " and im from " + country);
+
+			let year = 2020;
+			let age = 23;
+
+			let born = year - age;
+
+			console.log("My age is " + age + " and im born in " + (year - age));
+
+			console.log(typeof name); //string
+			console.log(typeof age); //number
+
+			console.log(
+				`Hello! my name is ${name}, my age is ${age}. I come from ${country} and im born in ${born}`
+			);
+
+			let day = "tuesday";
+
+			if (day === "tuesday") {
+				console.log("Yay it's tuesday");
+			} else {
+				console.log("It's another day of the week");
+			}
+
+			let x = 100;
+			let y = 25;
+
+			if (x > 50 && y < 20) {
+				console.log("Condition 1");
+			} else if (x > 50 && y > 30) {
+				console.log("Condition 2");
+			} else {
+				console.log("None of the conditions is fulfilled");
+			}
+
+			let weekday = "sunday";
+
+			switch (weekday) {
+				case "monday":
+					console.log("It's a weekday today");
+					break;
+				case "tuesday":
+					console.log("It's a weekday today");
+					break;
+				case "wednesday":
+					console.log("It's a weekday today");
+					break;
+				case "thursday":
+					console.log("It's a weekday today");
+					break;
+				case "friday":
+					console.log("It's weekend today");
+					break;
+				case "saturday":
+					console.log("It's weekend today");
+					break;
+				case "sunday":
+					console.log("It's weekend today");
+					break;
+			}
+
+			function greeting(name = "stranger") {
+				console.log(`Hello! ${name}`);
+			}
+
+			greeting("Nick");
+			greeting();
+
+			const rectangleArea = (width, height) => {
+				let area = width * height;
+				return area;
+			};
+
+			console.log(rectangleArea(5, 3));
+		</script>
+	</body>
+</html>

@@ -1,0 +1,172 @@
+Clarifications:
+
+Append = appendChild
+Return = value after the code is runned ?
+
+Task 1: DOM recap
+
+create a variable called list and assign the list with id nav to it
+using createElement create the element LI,
+- create a variable called li and assign the new element li to it
+using createElement create the element A,
+- create a variable called a and assign the new element a to it
+- give the innerHTML to a value of your choice (example: page 6)
+
+Append the the element a to li
+append li to list
+
+using setAttribute give A an attribute of href with the value of https://vg.no
+using querySelector select the last li element of the list, select the A tag inside the list.
+
+after the querySelector write .click(), what do you think will happen?
+
+example: document.querySelector("#id element child selector a").click()
+
+EXTRA: Still unsure about this?
+use the last weeks lab and add different elements to this page, create your own list, create a h1, create a p tag
+
+Task 2:
+
+Strings:
+
+const string1 = "hello world" //uppercase h
+const string2 = "make me uppercase" // uppercase the whole sentence
+const string3 = "MAKE ME LOWERCASE" // lowercase the whole sentence
+
+const int1 = 27.6 // use Math. operation to get the output 30
+const int2 = 27.6 // use Math. operation to get the output 27
+
+Task 4:
+increment by 1
+let increment = 10;
+
+decrement by 1
+let decrement = 5;
+
+Task 3:
+
+Create a variable called name using let, assign a name to the variable and console log the output
+
+Answer:
+let name = "Cornelius";
+console.log(name);
+
+Create a variable called country, assign a country to the variable.
+
+let country = "Norway"
+
+Using console.log create this sentence "Hi!, my name is .... and im from ...."
+Hint: Use string concatenation
+
+create a variable called age, assign your age to the variable
+let age = 23
+
+create a variable called year, assign the current year to the variable
+let year = 2020
+
+using a mathematical operation use your age and the current year to get the year you were born
+
+year - age
+
+using console log create this sentence "My age is ... and im born in ..."
+
+use console.log to check what typeof your name and age is. What do you think the output will be?
+
+Use string template literals write this sentence "Hello! my name is ..., my age is ... .I come from .... and im born in ... "
+
+link: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
+
+
+task 5:
+
+create a const variable called day, and assign tuesday to the variable
+
+create a if sentence, IF the day is tuesday console.log Yay it's tuesday. ELSE console.log it's another day of the week
+
+const day = "tuesday";
+
+if(day === "tuesday") {
+  console.log("It's tuesday today")
+} else {
+  console.log("It's another day of the week")
+}
+
+Task 6:
+
+create two variables x, y;
+
+x = 100
+y = 25
+
+Create an if sentence
+if x is > 50 and (&&) y < 20
+  console log condition 1
+else if x is > 50 and y is > 30
+  console log condition 2
+else
+  console log none of the conditions is fulfilled
+
+
+task 7:
+
+create a variable called weekday, assign tuesday to the variable
+
+create a switch statement with a case for each weekday,
+if the case is monday - thursday console log "It's a weekday today"
+if the case is friday - sunday console log "It's weekend today"
+
+let weekday = "tuesday";
+
+switch(weekday) {
+  case 'monday':
+    console.log("It's a weekday today")
+    break;
+  case 'tuesday':
+    console.log("It's a weekday today")
+    break;
+  case 'wednesday':
+    console.log("It's a weekday today")
+    break;
+  case 'thursday':
+    console.log("It's a weekday today")
+    break;
+  case 'friday':
+    console.log("It's weekend today")
+    break;
+  case 'saturday':
+    console.log("It's weekend today")
+    break;
+  case 'sunday':
+    console.log("It's weekend today")
+    break;
+}
+
+task 8:
+
+create a function greeting that has the parameters name = 'stranger'
+inside the function console.log Hello! ${name}
+
+call the function greeting('yourname')
+and greeting('')
+
+function greeting (name = 'stranger'){
+  console.log(`Hello! ${name}`)
+}
+
+greeting ("Nick")
+greeting ()
+
+task 9:
+
+create an arrow function using const rectangleArea that has two parameters width and height
+
+inside has a let area with width * length
+return the area
+
+console log the arrow function with the parameters 5, 3
+
+const rectangleArea = (width, height) => {
+  let area = width * height;
+  return area;
+}
+
